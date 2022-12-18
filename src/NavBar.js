@@ -6,7 +6,7 @@ function NavBar() {
     return ( 
         <>
         
-        <AppBar
+        <AppBar sx={{boxShadow:"0px 0px 0px 0px"}}
         
        >
         <Toolbar>

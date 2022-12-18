@@ -12,15 +12,16 @@ function App() {
     
     <>
     <NavBar />
-     <Box
-     sx={{backgroundColor:"azure", height:"100%"}}
+    <Sidebar />
+     {/* <Box
+     sx={{backgroundColor:"azure"}}
      >
     
-    <Sidebar />
+    
     <Main />
     
    
-    </Box>
+    </Box> */}
     <Footer />
    
    

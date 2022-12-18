@@ -1,7 +1,14 @@
+import { Typography } from "@mui/material";
+
 function Footer() {
     return ( 
         <>
-        <h2>Footer</h2>
+        <Typography
+        sx={{textAlign:"center"}}
+        >
+        <p>Footer</p>
+        </Typography>
+        
         </>
      );
 }

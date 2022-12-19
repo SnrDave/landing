@@ -1,4 +1,5 @@
 import { Box, height } from "@mui/system";
+import Datee from "./Datee";
 import Footer from "./Footer";
 import Main from "./Main";
 import NavBar from "./NavBar";
@@ -13,6 +14,7 @@ function App() {
     <>
     <NavBar />
     <Sidebar />
+    <Datee />
      {/* <Box
      sx={{backgroundColor:"azure"}}
      >

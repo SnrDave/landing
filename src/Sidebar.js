@@ -7,10 +7,10 @@ function Sidebar() {
         <>
         
         <Box
-    marginTop="3.5rem"
+  
         sx={{height:"70rem", width:"15rem",color:"white",backgroundColor:"#1A76D2" , textAlign:"center",display:"flex", flexDirection:"column"}}
         >
-            <Button sx={{color:"white"}} variant="text" startIcon={<Person />}> Users</Button>
+            <Button sx={{color:"white", mt:"30px"}} variant="text" startIcon={<Person />}> Users</Button>
             <Button sx={{color:"white"}} variant="text" startIcon={<AccountCircle />}> Admins</Button>
             <Button sx={{color:"white"}} variant="text" startIcon={<RememberMe />}> Pattern</Button>
             <Button sx={{color:"white"}} variant="text" startIcon={<BatchPrediction />}> Players</Button>

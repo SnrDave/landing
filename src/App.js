@@ -1,11 +1,12 @@
-import { Box, height } from "@mui/system";
-import Datee from "./Datee";
-import Footer from "./Footer";
-import Main from "./Main";
-import NavBar from "./NavBar";
-import Sidebar from "./Sidebar";
-import Test from "./Test";
 
+
+import Footer from "./Footer";
+
+import NavBar from "./NavBar";
+
+import Test from "./Test";
+import app from "./App.css"
+import { Box } from "@mui/system";
 
 
 
@@ -13,20 +14,13 @@ function App() {
   return (
     
     <>
+    <Box sx={{backgroundColor:"#1A76D2"}}>
     <NavBar />
-    <Sidebar />
-    <Datee />
-     {/* <Box
-     sx={{backgroundColor:"azure"}}
-     >
-    
-    
-    <Main />
-    
-   
-    </Box> */}
     <Test />
+  
+    
     <Footer />
+    </Box>
    
    
       

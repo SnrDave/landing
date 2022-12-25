@@ -4,8 +4,8 @@ function Main() {
     return ( 
         <>
         <Box
-        sx={{align:"center"}}>
-        <h2>Main</h2>
+        sx={{align:"center",mt:"2rem"}}>
+        <h6>Main</h6>
         </Box>
         </>
 

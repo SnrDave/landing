@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-
+import React, { Component }  from 'react';
 function Footer() {
     return ( 
         <>

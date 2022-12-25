@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { AccountCircle, AssignmentInd, BatchPrediction, Person, RememberMe, ViewCompact, ViewTimeline, Workspaces } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import { Box } from "@mui/system";

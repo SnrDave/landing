@@ -7,6 +7,7 @@ import NavBar from "./NavBar";
 import Test from "./Test";
 import app from "./App.css"
 import { Box } from "@mui/system";
+import React, { Component }  from 'react';
 
 
 

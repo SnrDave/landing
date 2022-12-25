@@ -72,7 +72,7 @@ function Main() {
         </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small" variant="contained"><Link to='/Player'>Movie</Link></Button>
+                <Button size="small" variant="contained">Movie</Button>
                 
                 <Button size="small" color="secondary" variant="contained" sx={{textAlign:"right"}}>Trailer</Button>
         

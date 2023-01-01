@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import React, { Component }  from 'react';
 import PopularMovies from "./PoularMovies";
 import FetchMovies from "./FetchMovies";
+import Player from "./Player";
 
 
 function Datee() {
@@ -26,7 +27,7 @@ function Datee() {
         sx={{textAlign:"center", mt:"2rem"}}>
         <h4>{currentTime}</h4>
         </Typography>
-        <PopularMovies />
+        <Player />
        
  
         </>

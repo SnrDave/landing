@@ -35,7 +35,7 @@ const FetchMovies = () => {
           return (
             <>
               
-                <Grid item marginBottom={2}>
+                <Grid item xs={12} md={4} marginBottom={2}>
                   <Card>
                     <CardMedia
                       component="img"

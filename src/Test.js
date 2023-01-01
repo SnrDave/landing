@@ -8,7 +8,7 @@ function Test() {
     return ( 
         <>
         
-        <Grid container mt="1rem"sx={{textAlign:"center", position:"fixed"}} >
+        <Grid container mt="1rem"sx={{textAlign:"center"}} >
         <Grid item md={4} xs={4}  sx={{backgroundColor:"#1A76D2",color:"white" }}>
             <Sidebar />
             

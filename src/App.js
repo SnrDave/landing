@@ -8,6 +8,7 @@ import Test from "./Test";
 import app from "./App.css"
 import { Box } from "@mui/system";
 import React, { Component }  from 'react';
+import FetchMovies from "./FetchMovies";
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Box sx={{backgroundColor:"#1A76D2"}}>
     <NavBar />
     <Test />
+ 
   
     
     <Footer />

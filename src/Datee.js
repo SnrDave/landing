@@ -1,6 +1,8 @@
 import { Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import React, { Component }  from 'react';
+import PopularMovies from "./PoularMovies";
+import FetchMovies from "./FetchMovies";
 
 
 function Datee() {
@@ -24,6 +26,8 @@ function Datee() {
         sx={{textAlign:"center", mt:"2rem"}}>
         <h4>{currentTime}</h4>
         </Typography>
+        <PopularMovies />
+       
  
         </>
      );
